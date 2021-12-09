@@ -1,0 +1,83 @@
+from turtle import *
+hideturtle()
+speed(0)
+#base snowball
+circle(100)
+penup()
+#middle shirt/snowball
+goto(0,170)
+pendown()
+fillcolor("#978057")
+begin_fill()
+circle(75)
+end_fill()
+penup()
+#head
+goto(0,300)
+fillcolor("white")
+pendown()
+begin_fill()
+circle(50)
+end_fill()
+penup()
+#button top
+goto(0,270)
+pendown()
+fillcolor("#FFD700")
+begin_fill()
+circle(10)
+end_fill()
+penup()
+#button middle
+goto(0,240)
+pendown()
+begin_fill()
+circle(10)
+end_fill()
+penup()
+#button bottom
+goto(0,210)
+pendown()
+begin_fill()
+circle(10)
+end_fill()
+penup()
+#hat
+goto(-40,400)
+width(69)
+pendown()
+goto(40,400)
+penup()
+#outside eye
+goto(22,340)
+width(1)
+pendown()
+circle(8)
+penup()
+#inside
+goto(22,345)
+pendown()
+fillcolor("black")
+begin_fill()
+circle(3)
+end_fill()
+penup()
+#left outside
+goto(-22,340)
+pendown()
+circle(8)
+penup()
+#left inside 
+goto(-22,345)
+begin_fill()
+circle(3)
+end_fill()
+penup()
+#tear
+goto(-25, 340)
+
+#frown
+goto(-22,315)
+pendown()
+left(45)
+circle(-30, 90)
