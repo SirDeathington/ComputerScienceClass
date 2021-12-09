@@ -69,6 +69,7 @@ circle(8)
 penup()
 #left inside 
 goto(-22,345)
+pendown()
 begin_fill()
 circle(3)
 end_fill()
